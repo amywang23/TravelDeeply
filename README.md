@@ -1,2 +1,2 @@
 # TravelDeeply
-Code for TravelDeeply.org
+Code for back-end of TravelDeeply.org
