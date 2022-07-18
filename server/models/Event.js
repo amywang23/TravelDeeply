@@ -8,7 +8,8 @@ let EventSchema = new mongoose.Schema(
 			required: true
 		},
 		organization: {
-			type: String,
+			type: mongoose.Schema.Types.ObjectId,
+			ref: 'Organization',
 			required: true
 		},
 		description: {
@@ -29,6 +30,8 @@ let EventSchema = new mongoose.Schema(
 			type: Date,
 			required: true
 		},
-		img: String
+		img: [String]
 	}
 );
+
+module.exports = mongoose.model('Event', EventSchema);
