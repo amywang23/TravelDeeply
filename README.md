@@ -18,7 +18,7 @@ Code for the website of TravelDeeply.org
 
 4. Run the code by running the command `node server.js`. You can run the code with auto-refresh using `nodemon server.js` or `npm run dev`. These commands should still be run in the `server` directory.
 
-5. Test by going to <localhost:5000> and test GET request by going to localhost:5000/api plus a route found in ./routes/index.js
+5. Test by going to <localhost:5000> and test GET requests by going to localhost:5000/api plus a route found in ./routes/index.js
 
 #### MongoDB Setup
 
