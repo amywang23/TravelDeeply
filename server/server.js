@@ -1,12 +1,12 @@
-const express = require("express");
-const cors = require("cors");
+const express = require('express');
+const cors = require('cors');
 const helmet = require('helmet');
 const mongoose = require('mongoose');
 
-const middlewares = require("./middlewares.js");
+const middlewares = require('./middlewares.js');
 const routes = require('./routes/index.js');
 
-require("dotenv").config({ path: "./config.env" });
+require('dotenv').config({ path: './config.env' });
 
 const app = express();
 const DATABASE_CONNECTION = process.env.ATLAS_URI;
