@@ -18,7 +18,7 @@ module.exports = {
 
 	/** Handle Event create on POST */
 	event_create_post: (_req, res) => {
-		res.send('Event Create POST')
+		res.send('Event Create POST');
 	},
 
 	/** Display Event delete form on GET */
