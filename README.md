@@ -1,6 +1,10 @@
 # TravelDeeply
 
-Code for the website of TravelDeeply.org
+> Code for the website of TravelDeeply.org, an organization geared towards connecting tourists with local organizations by providing volunteer opportunities. We offer a variety of unique activities that support the people and wildlife of popular travel destinations and expand the meaning of travel to include community service. Help pick up trash, cook at a soup kitchen, or build care packages and touch lives worldwide!
+
+## Mission Statement
+
+To inspire meaningful experiences by augmenting tour websites with opportunities to give back. Assisting charities get volunteers, donations, and awareness.
 
 ## Installation and Setup
 
@@ -19,6 +23,10 @@ Code for the website of TravelDeeply.org
 4. Run the code by running the command `node server.js`. You can run the code with auto-refresh using `nodemon server.js` or `npm run dev`. These commands should still be run in the `server` directory.
 
 5. Test by going to <localhost:5000>
+
+6. Test an API endpoint by going to <localhost:5000/api/events>. If this page displays the message `Event List`.
+
+7. For more ways to test API endpoints, refer to [this link](https://hackernoon.com/how-to-easily-use-curl-for-http-requests-db3249c5d4e6).
 
 #### MongoDB Setup
 
