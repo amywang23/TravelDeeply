@@ -32,9 +32,9 @@ Code for the website of TravelDeeply.org
 
 5. Go back to your code editor. Create a new `config.env` file under the `server` directory.
 
-6. On the first line of `config.env`, paste `ATLAS_URI=<connection string>`. Replace `<connection string>` with the string you copied.
+6. On the first line of `config.env`, paste `ATLAS_URI=<connection string>`. Replace `<connection string>` with the string you copied .
 
-7. Change the `<password>` in the connection string you just pasted to our actual user password. Use the pasword under the MongoDB Database Access entry under the Tools page in our Notion.
+7. Change the `<password>` in the connection string you just pasted to our actual user password (delete carets). Use the pasword under the MongoDB Database Access entry under the Tools page in our Notion.
 
 8. On the second line of the `config.env`, add the following line: `PORT=5000`.
 
