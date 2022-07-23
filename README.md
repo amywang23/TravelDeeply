@@ -28,6 +28,8 @@ To inspire meaningful experiences by augmenting tour websites with opportunities
 
 7. For more ways to test API endpoints, refer to [this link](https://hackernoon.com/how-to-easily-use-curl-for-http-requests-db3249c5d4e6).
 
+8. OPTIONAL: Follow the extra instructions[below](#eslint) for instructions to run ESLint.
+
 #### MongoDB Setup
 
 1. Sign in to MongoDB [here](https://account.mongodb.com/account/login). Use the username and password under the MongoDB entry under the Tools page in our Notion.
@@ -47,3 +49,11 @@ To inspire meaningful experiences by augmenting tour websites with opportunities
 8. On the second line of the `config.env`, add the following line: `PORT=5000`.
 
 9. Make sure to save all changes.
+
+#### ESLint
+
+This will help identify potential runtime and syntax errors. This will also enforce style guides, such as single quotes and using semicolons. You have two options:
+
+* Run the linter using the command `eslint *`.
+
+* Download the ESLint VS Code extension [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint). You should be able to configure it to automatically scan for errors.
