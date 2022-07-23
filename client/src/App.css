@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +14,37 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #044c5d;
+  height: calc(70px + 2vmin);
+  position: relative;
+  z-index: 100;
+  color: white;
+}
+
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: calc(30px + 2vmin);
+  font-size: calc(10px + 2vmin);
+}
+
+.Header-tabs{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: calc(200px + 2vmin);
+  font-size: calc(10px + 2vmin);
+}
+
+.App-body {
+  background-image: url("background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +52,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .App-link {
@@ -35,4 +67,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.search {
+  min-width: calc(600px + 2vmin);
+  min-height: calc(30px + 2vmin);
+  border: none;
+  border-radius: 10px;
+  background: #63a9b8 url("magnifying_glass.PNG") no-repeat left center;
+  background-repeat: no-repeat;
+  background-size: calc(20px + 2vmin);
+  padding: calc(1px + 1vmin) calc(1px + 1vmin) calc(1px + 1vmin) calc(32px + 2vmin);
+  color: #fefef9;
+  font: 20px sans-serif;
+}
+
+::placeholder {
+  color:#fefef9;
+  font: 20px sans-serif;
+}
+
+.head-nav {
+  background-color: #044c5d;
+  min-height: 80px;
+}
+
+.foot-nav {
+  background-color: #fefef9;
 }
